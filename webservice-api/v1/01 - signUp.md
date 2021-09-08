@@ -38,4 +38,8 @@
     });
   ```
 *  **Test URL**<br>
-[link](http://hsmg.psych.illinois.edu/armt-hiv/v1/user_signup.php)
+
+[http://sal.asc.upenn.edu/armt-hiv/v1/user_signup.php](http://sal.asc.upenn.edu/armt-hiv/v1/user_signup.php)
+
+
+- result, check MongoDB to confirm user is added... and check email to confirm you received an email!

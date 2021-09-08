@@ -38,3 +38,7 @@
     });
   ```
 
+*  **Example URL**<br>
+
+
+[https://sal.asc.upenn.edu/armt-hiv/v1/twitter/userinfo](https://sal.asc.upenn.edu/armt-hiv/v1/twitter/userinfo)

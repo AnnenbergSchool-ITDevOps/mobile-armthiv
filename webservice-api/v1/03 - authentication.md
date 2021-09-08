@@ -38,4 +38,4 @@
     });
   ```
 *  **Test URL**<br>
-[link](http://hsmg.psych.illinois.edu/armt-hiv/v1/user_login.php)
+[http://sal.asc.upenn.edu/armt-hiv/v1/user_login.php](http://sal.asc.upenn.edu/armt-hiv/v1/user_login.php)

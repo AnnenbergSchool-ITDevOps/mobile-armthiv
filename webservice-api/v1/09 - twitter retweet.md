@@ -41,4 +41,9 @@
   
 * **example**
 
-  **https://hsmg.psych.illinois.edu/armt-hiv/v1/twitter/retweet/?email=xxx@gmail.com&id=1270095772227379209**
+[https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=xxx@gmail.com&id=1270095772227379209](https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=xxx@gmail.com&id=1270095772227379209)
+
+
+> Needs legit Twitter Username & ID?
+> 
+> - https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=epj@asc.upenn.edu&id=1270095772227379209

@@ -20,7 +20,7 @@
 Default is return today's recommended message. If 'date' is inputed, it will return the recommended message on 'date'  <br />
 Since the database's messages generation is not finish yet, only the date between 20200601 to 20200610 have message. <br />
 for example,<br />
-http://hsmg.psych.illinois.edu/armt-hiv/v1/recMsg/?date=20200604
+[http://sal.asc.upenn.edu/armt-hiv/v1/recMsg/?date=20200604](http://sal.asc.upenn.edu/armt-hiv/v1/recMsg/?date=20200604)
 
 * **Success Response:**
 
