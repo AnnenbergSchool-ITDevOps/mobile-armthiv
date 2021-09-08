@@ -7,7 +7,7 @@
 ## Getting Started
 
 
-> **Please refer to the respective markdown READMEs in [./v1/](./v1/)**
+> **Please refer to the respective markdown READMEs in [./webservice-api/v1/](./webservice-api/v1/)**
 
 
 - To test your migration, you will need a **Twitter Developer account** with an associated app (for Callback OAuth URL)
