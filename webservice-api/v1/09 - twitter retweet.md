@@ -47,3 +47,18 @@
 > Needs legit Twitter Username & ID?
 > 
 > - https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=epj@asc.upenn.edu&id=1270095772227379209
+
+
+___________
+
+### CURL POST REQUEST
+
+- using the known twitter `id_str=1022129459741245440`
+- or is this known message ID? let's try `148477475`
+
+```bash
+curl -d "email=etiennej@upenn.edu&id=148477475" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/
+```
+
+- I get the following error `{"success":true,"posted":{"user":"User email not found"}}`
+  - not sure about this one?

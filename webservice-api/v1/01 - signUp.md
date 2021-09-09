@@ -51,7 +51,7 @@ Helpful demonstration for curl POST request formatting [here](https://gist.githu
 
 ```bash
 # Internal UPenn email
-curl -d "email=etiennej@upenn.edu&password=P@$$w0rd" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/signup/
+curl -d "email=etiennej@upenn.edu&password=abc123" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/signup/
 
 # External Personal Gmail
 curl -d "email=jacquot.etienne@gmail.com&password=P@$$w0rd" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/signup/
