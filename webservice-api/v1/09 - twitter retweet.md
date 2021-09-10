@@ -57,8 +57,11 @@ ___________
 - or is this known message ID? let's try `148477475`
 
 ```bash
-curl -d "email=etiennej@upenn.edu&id=148477475" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/
+curl -d "email=etiennej@upenn.edu&id=1270411880591437824" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/
 ```
 
-- I get the following error `{"success":true,"posted":{"user":"User email not found"}}`
-  - not sure about this one?
+- I get the following error on curl POST `{"success":true,"posted":{"user":"User email not found"}}`
+
+- But if you go through URL I receive `{"success":true,"posted":{"retweet":"success"}}`
+    - https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=etiennej@upenn.edu&id=1270411880591437824
+
