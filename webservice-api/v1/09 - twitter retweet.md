@@ -65,3 +65,19 @@ curl -d "email=etiennej@upenn.edu&id=1270411880591437824" -H "Content-Type: appl
 - But if you go through URL I receive `{"success":true,"posted":{"retweet":"success"}}`
     - https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=etiennej@upenn.edu&id=1270411880591437824
 
+**OKAY SO I HAD TO UPDATE MY DEV APP ON TWITTER TO ALLOW READ & WRITE... I forgot I did read only for testing!**
+
+On attempting to click again the link 
+- https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=etiennej@upenn.edu&id=1270411880591437824
+
+- I get an error that the tweet ID isn't legit? `{"success":false,"posted":{"retweet":"No status found with that ID."}}`
+- so try the available tweet in recMsg `1270411884051730435`
+  - https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/?email=etiennej@upenn.edu&id=1270411884051730435
+  - this now returns `{"success":true,"posted":{"retweet":"success"}}` and yes the retweet is there!
+
+- Can we do it with CURL POST? Known ID in recMsg `1422748452065263617` for 20210805
+
+```bash
+curl -d "email=etiennej@upenn.edu&id=1422748452065263617" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://sal.asc.upenn.edu/armt-hiv/v1/twitter/retweet/
+```
+- still gives `{"success":true,"posted":{"user":"User email not found"}}`
